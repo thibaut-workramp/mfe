@@ -2,10 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App'
 
-console.log('boostraping marketing app');
 // Mount function to start up the app
 const mount = (el) => {
-  ReactDOM.render(<App/>, el);
+  ReactDOM.render(<><h1>Marketing App</h1><App/></>, el);
 };
 
 // If we are in development and in isolation
