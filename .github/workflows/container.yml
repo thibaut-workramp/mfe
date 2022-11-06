@@ -8,7 +8,6 @@ on:
       - 'packages/container/**'
 defaults:
   run:
-    using: 'node16'
     working-directory: packages/container
 
 jobs:
