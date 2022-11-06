@@ -13,7 +13,6 @@ export default () => {
   return <div>
     <StylesProvider generateClassName={generateClassName}>
       <BrowserRouter>
-        <h1>Marketing App</h1>
         <Switch>
           <Route exact path="/pricing" component={Pricing}/>
           <Route exact path="/" component={Landing}/>
