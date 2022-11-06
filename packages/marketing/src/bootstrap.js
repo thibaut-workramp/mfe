@@ -4,7 +4,7 @@ import App from './App'
 
 // Mount function to start up the app
 const mount = (el) => {
-  ReactDOM.render(<><h1>Marketing App</h1><App/></>, el);
+  ReactDOM.render(<React.Fragment><h1>Marketing App</h1><App/></React.Fragment>, el);
 };
 
 // If we are in development and in isolation
